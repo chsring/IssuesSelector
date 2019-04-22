@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#EEEEEE"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d9d9d9" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_send_message_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape_d9d9_corner_4"
+            android:cursorVisible="true"
+            android:hint="请输入您要提问的问题，500字以内。"
+            android:lineSpacingExtra="5dip"
+            android:maxHeight="120dp"
+            android:maxLength="500"
+            android:minHeight="14dp"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingTop="7dp"
+            android:paddingRight="@dimen/dp_10"
+            android:paddingBottom="7dp"
+            android:textColor="#252628"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_iOS"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="@dimen/sp_12"
+                android:layout_marginRight="@dimen/dp_10"
+                android:background="@drawable/shape_0064ff_corner_4"
+                android:text="iOS"
+                android:textColor="#fff"
+                android:textSize="@dimen/sp_14"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_Android"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="@dimen/sp_12"
+                android:layout_marginRight="@dimen/dp_10"
+                android:background="@drawable/shape_0064ff_corner_4"
+                android:text="Android"
+                android:textColor="#fff"
+                android:textSize="@dimen/sp_14"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

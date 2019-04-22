@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DashboardView">
+        <attr name="radius" format="dimension" />     <!--扇形半径-->
+        <attr name="startAngle" format="integer" /> <!-- 起始角度-->
+        <attr name="sweepAngle" format="integer" />  <!--绘制角度-->
+        <attr name="bigSliceCount" format="integer" /> <!-- 长刻度条数-->
+        <attr name="sliceCountInOneBigSlice" format="integer" /> <!-- 长刻度条数-->
+        <attr name="arcColor" format="color" /> <!--弧度颜色-->
+        <attr name="measureTextSize" format="dimension" /> <!--刻度字体大小-->
+        <attr name="textColor" format="color" /> <!--字体颜色-->
+        <attr name="headerTitle" format="string" /> <!--表头-->
+        <attr name="headerTextSize" format="dimension" /> <!--表头字体大小-->
+        <attr name="headerRadius" format="dimension" /> <!--表头半径-->
+        <attr name="pointerRadius" format="dimension" /> <!--指针半径-->
+        <attr name="circleRadius" format="dimension" /> <!--中心圆半径-->
+        <attr name="minValue" format="integer" /> <!--最小值-->
+        <attr name="maxValue" format="integer" /> <!--最大值-->
+        <attr name="realTimeValue" format="float" /> <!--实时值-->
+        <attr name="stripeWidth" format="dimension" /> <!--色带宽度-->
+        <attr name="stripeMode"> <!--色条显示位置-->
+            <enum name="normal" value="0" />
+            <enum name="inner" value="1" />
+            <enum name="outer" value="2" />
+        </attr>
+        <attr name="bgColor" format="color" /> <!--背景颜色-->
+        <attr name="showOuterArc" format="boolean" /> <!--显示外层圆弧-->
+        <attr name="valueTextSize" format="dimension" /> <!--显示外层圆弧-->
+        <attr name="button_width" format="dimension" /> <!--最下面按钮长度-->
+        <attr name="button_height" format="dimension" /> <!--最下面按钮宽度-->
+        <attr name="button_text" format="string" /> <!--最下面按钮文字-->
+    </declare-styleable>
+
+    <declare-styleable name="twice_textview_cell">
+        <attr name="key" format="string" />
+        <attr name="value" format="string" />
+        <attr name="editable" format="boolean" />
+        <attr name="arrow" format="boolean" /> <!--是否显示右边图片箭头-->
+        <attr name="valueTVSize" format="dimension" />
+        <attr name="keyTextSize" format="dimension" />
+        <attr name="valueTextColor" format="reference|color" />
+        <attr name="keyTextColor" format="reference|color" />
+        <attr name="arrowBackground" format="reference|color" />
+        <attr name="valueMaxLength" format="integer" />
+        <attr name="digits" format="string" />
+    </declare-styleable>
+
+
+    <declare-styleable name="LineBreakLayout">
+        <!--标签之间左右距离-->
+        <attr name="leftAndRightSpace" format="dimension" />
+        <!--标签行距-->
+        <attr name="rowSpace" format="dimension" />
+        <!--item 是否可以点击-->
+        <attr name="selectAble" format="boolean" />
+    </declare-styleable>
+
+    <item name="tag_first" type="id" />
+    <item name="tag_second" type="id" />
+
+    <declare-styleable name="CustomToolBar">
+        <attr name="isShowSearchView" format="boolean" />
+        <attr name="rightButtonIcon_left" format="reference" />
+        <attr name="rightButtonText_left" format="string|reference" />
+        <attr name="rightButtonIcon_right" format="reference" />
+        <attr name="rightButtonText_right" format="string|reference" />
+        <attr name="leftButtonIcon" format="reference" />
+        <attr name="leftButtonText" format="string|reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="home_main_menu">
+        <attr name="title_text" format="string|reference" />
+        <attr name="right_icon" format="reference" />
+        <attr name="number_text" format="string|reference" />
+    </declare-styleable>
+
+
+    <!-- 自定义验证码输入框-->
+    <declare-styleable name="vericationCodeView">
+        <!--输入框的数量-->
+        <attr name="vcv_et_number" format="integer" />
+        <!--输入类型-->
+        <attr name="vcv_et_inputType">
+            <enum name="number" value="0" />
+            <enum name="numberPassword" value="1" />
+            <enum name="text" value="2" />
+            <enum name="textPassword" value="3" />
+        </attr>
+        <!--输入框的宽度-->
+        <attr name="vcv_et_width" format="dimension|reference" />
+        <!--输入框文字颜色-->
+        <attr name="vcv_et_text_color" format="color|reference" />
+        <!--输入框文字大小-->
+        <attr name="vcv_et_text_size" format="dimension|reference" />
+        <!--输入框背景-->
+        <attr name="vcv_et_bg" format="reference" />
+        <!--光标样式-->
+        <attr name="vcv_et_cursor" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="SwitchButton">
+        <attr name="kswThumbDrawable" format="reference" />
+        <attr name="kswThumbColor" format="color|reference" />
+        <attr name="kswThumbMargin" format="dimension|reference" />
+        <attr name="kswThumbMarginTop" format="dimension|reference" />
+        <attr name="kswThumbMarginBottom" format="dimension|reference" />
+        <attr name="kswThumbMarginLeft" format="dimension|reference" />
+        <attr name="kswThumbMarginRight" format="dimension|reference" />
+        <attr name="kswThumbWidth" format="dimension|reference" />
+        <attr name="kswThumbHeight" format="dimension|reference" />
+        <attr name="kswThumbRadius" format="dimension|reference" />
+        <attr name="kswBackRadius" format="dimension|reference" />
+        <attr name="kswBackDrawable" format="reference" />
+        <attr name="kswBackColor" format="color|reference" />
+        <attr name="kswFadeBack" format="boolean" />
+        <attr name="kswBackMeasureRatio" format="float" />
+        <attr name="kswAnimationDuration" format="integer" />
+        <attr name="kswTintColor" format="color|reference" />
+        <attr name="kswTextOn" format="string" />
+        <attr name="kswTextOff" format="string" />
+        <attr name="kswTextMarginH" format="dimension" />
+        <attr name="kswAutoAdjustTextPosition" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="kv_icon_cell">
+        <attr name="k_text" format="string|reference" />
+        <attr name="v_text" format="string|reference" />
+        <attr name="r_icon" format="reference" />
+        <attr name="m_icon1" format="reference" />
+        <attr name="m_icon2" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="corner_radius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="mutate_background" format="boolean" />
+        <attr name="oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+
+    <declare-styleable name="RelativeKeyValueView">
+        <attr name="key_text" format="string" />
+        <attr name="key_color" format="color" />
+        <attr name="key_size" format="dimension" />
+
+        <attr name="value_text" format="string" />
+        <attr name="value_color" format="color" />
+        <attr name="value_size" format="dimension" />
+        <attr name="value_location">
+            <enum name="alineParentRigth" value="0" />
+            <enum name="alineParentLeft" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="key_icon_status_value_cell">
+        <attr name="ki_text" format="string|reference" />
+        <attr name="si_text" format="string|reference" />
+        <attr name="vi_text" format="string|reference" />
+        <attr name="ri_icon" format="reference" />
+        <attr name="ki_color" format="color" />
+        <attr name="si_color" format="color" />
+        <attr name="vi_color" format="color" />
+        <attr name="ki_size" format="dimension" />
+        <attr name="si_size" format="dimension" />
+        <attr name="vi_size" format="dimension" />
+        <attr name="ki_bold" format="boolean" />
+        <attr name="si_bold" format="boolean" />
+        <attr name="vi_bold" format="boolean" />
+        <attr name="ri_icon_visibility" format="boolean" />
+        <attr name="si_status_visibility" format="boolean" />
+        <attr name="vi_isbtn" format="boolean" />
+        <attr name="vi_background" format="reference" />
+
+
+    </declare-styleable>
+</resources>

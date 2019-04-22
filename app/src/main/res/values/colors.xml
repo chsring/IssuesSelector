@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="colorPrimary">#0064ff</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorPrimaryDark">#0F82FA</color>
+    <color name="colorAccent">#536DFE</color>
+    <color name="bg_app">#F1F1F1</color>
+
+    <color name="tab_unselect">#c9c9c9</color>
+    <color name="bg_btn">#dadada</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_d9d9d9">#d9d9d9</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_ff393939">#ff393939</color>
+    <color name="color_666666">#666666</color>
+    <color name="white">#ffffff</color>
+    <color name="color_0f82fa">#0F82FA</color>
+    <color name="color_EEEEEE">#EEEEEE</color>
+    <color name="color_f1f1f1">#f1f1f1</color>
+    <color name="color_ffe2">#ffe2e2e2</color>
+    <color name="color_ffff0085">#ffff0085</color>
+    <color name="color_ffedf0f4">#ffedf0f4</color>
+    <color name="color_0064ff">#0064ff</color>
+    <color name="color_ff02cbcc">#ff02cbcc</color>
+    <color name="color_ff02c6c7">#ff02c6c7</color>
+    <color name="province_line_border">#C7C7C7</color>
+    <color name="color_f1f6fa">#f1f6fa</color>
+    <color name="color_ff2f9">#FFF2F9</color>
+    <color name="color_transparent">@android:color/transparent</color>
+
+    <!--BackGroundColor -->
+    <!--黑色通明度30% -->
+    <color name="black_30">#4D000000</color>
+    <color name="background_color_f1f1">#f1f1f1</color>
+    <color name="text_color_ff6900">#ff6900</color>
+    <color name="text_color_666">#666666</color>
+    <color name="text_color_c5c5c5">#c5c5c5</color>
+    <color name="text_color_f1f1">#f1f1f1</color>
+    <color name="text_color_333">#333333</color>
+    <color name="color_ff3b3d3f">#ff3b3d3f</color>
+    <color name="color_3385FF">#3385FF</color>
+    <color name="color_f5f5f6">#fff5f5f6</color>
+    <color name="color_050064ff" tools:ignore="MissingDefaultResource">#050064ff</color>
+
+    <color name="color_FF0085">#FF0085</color>
+    <color name="color_0dFF0085">#0dFF0085</color>
+    <color name="color_0d0064ff">#0d0064ff</color>
+    <color name="color_252628">#252628</color>
+    <color name="color_CACDD1">#CACDD1</color>
+    <color name="color_75787B">#75787B</color>
+    <color name="color_ffd2a650">#ffd2a650</color>
+
+
+    <color name="color_title_black">#252628</color>
+    <color name="color_order_gold">#D2A650</color>
+    <color name="color_appeal_gold">#0DD2A650</color>
+    <color name="color_order_list_button">#1a0064ff</color>
+
+    <color name="color_3b3d3f">#3B3D3F</color>
+
+
+    <color name="color_order_list_backgroud">#f0f2f5</color>
+
+    <color name="old_tv_clicked">#3385FF</color>
+    <color name="my_pink_color">#ff6900</color>
+    <color name="color_gray">#fff6f6f6</color>
+    <color name="color_66ff">#66ffffff</color>
+    <color name="main_background_color">#EEEEEE</color>
+    <color name="color_3385ff">#3385ff</color>
+
+    <color name="text_color02">#222222</color>
+    <color name="color_1a252628">#1a252628</color>
+    <color name="color_b3ffffff">#b3ffffff</color>
+    <color name="color_4f0064ff">#4f0064ff</color>
+    <color name="color_D2A650">#D2A650</color>
+    <color name="color_33d2a650">#33d2a650</color>
+
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="order_location_detail_tag" type="id" />
+    <item name="order_list_footer_tag" type="id" />
+
+
+    <item name="receipt_list_img_position" type="id" />
+    <item name="receipt_list_img_status" type="id" />
+    <item name="receipt_list_delete_position" type="id" />
+
+
+
+
+    <item name="order_detail_order_sn" type="id" />
+    <item name="order_detail_broker_invoice" type="id" />
+</resources>
