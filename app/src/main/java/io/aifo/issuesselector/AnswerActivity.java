@@ -1,6 +1,7 @@
 package io.aifo.issuesselector;
 
 import android.os.Bundle;
+import android.os.PersistableBundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -74,9 +75,6 @@ public class AnswerActivity extends AppCompatActivity {
             }
         });
 
-        for (int i = 0; i < 200; i++) {
-            Log.i("issues-size", "count: " + getRandomPos(11));
-        }
     }
 
     /**
