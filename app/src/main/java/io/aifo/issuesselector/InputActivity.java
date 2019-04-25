@@ -78,6 +78,11 @@ public class InputActivity extends AppCompatActivity {
             }
         });
         EventBus.getDefault().register(this);
+
+        String[] androidQuestions = getResources().getStringArray(R.array.android_question);
+        for (String question : androidQuestions) {
+            issuesAdapter.addData(new Issues(1, issuesAdapter.getItemCount() + 1 + ". Android:" + question));
+        }
     }
 
     @Override
@@ -89,5 +94,7 @@ public class InputActivity extends AppCompatActivity {
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onMessageEvent(EventMsg event) {
         issuesAdapter.notifyDataSetChanged();
-    };
+    }
+
+    ;
 }
