@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="android_question" >
+        <item>简单说一下findbugs的集成步骤和参数含义</item>
+        <item>简单说一下pmd的集成步骤和参数含义</item>
+        <item>简单说一下lint的配置参数含义</item>
+        <item>简单说一下lint自定义规则流程</item>
+        <item>列举几个lint检查出的错误类型</item>
+    </string-array>
+</resources>
